@@ -1,0 +1,12 @@
+Source: ros-lyrical-eigen3-cmake-module
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-copyright <!nocheck>, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/eigen3_cmake_module/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-eigen3-cmake-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ros-workspace
+Description: Exports a custom CMake module to find Eigen3.
