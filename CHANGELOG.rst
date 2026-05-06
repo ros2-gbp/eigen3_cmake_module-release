@@ -2,6 +2,9 @@
 Changelog for package eigen3_cmake_module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.0 (2026-05-06)
+------------------
+
 0.5.1 (2025-07-29)
 ------------------
 * fix cmake deprecation (`#10 <https://github.com/ros2/eigen3_cmake_module/issues/10>`_)
